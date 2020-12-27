@@ -1,9 +1,9 @@
 
-[![Build Status](https://github.com/enefce/AndroidLibraryForGitHubPackagesDemo/workflows/Android%20CI/badge.svg)](https://github.com/enefce/AndroidLibraryForGitHubPackagesDemo/actions)
+[![Build Status](https://github.com/murali/GitHubAndroidLibrary/workflows/Android%20CI/badge.svg)](https://github.com/enefce/GitHubAndroidLibrary/actions)
 [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fenefce%2FAndroidLibraryForGitHubPackagesDemo.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fenefce%2FAndroidLibraryForGitHubPackagesDemo?ref=badge_shield)
-[![Library Version](https://img.shields.io/badge/LibraryVersion-v1.0.2-brightgreen)](https://github.com/enefce/AndroidLibraryForGitHubPackagesDemo/packages/50498)
+[![Library Version](https://img.shields.io/badge/LibraryVersion-v1.0.2-brightgreen)](https://github.com/murali/GitHubAndroidLibrary/packages/50498)
 
-![License](https://img.shields.io/github/license/enefce/AndroidLibraryForGitHubPackagesDemo?color=2fc544)
+![License](https://img.shields.io/github/license/murali/GitHubAndroidLibrary?color=2fc544)
 
 
 # Sample Android Library Publishing to GitHub Package Registry
@@ -57,7 +57,7 @@ def getArtificatId = { ->
 publishing {
     publications {
         bar(MavenPublication) {
-            groupId 'com.enefce.libraries' // Replace with group ID
+            groupId 'com.murali.libraries' // Replace with group ID
             artifactId getArtificatId()
             version getVersionName()
             artifact("$buildDir/outputs/aar/${getArtificatId()}-release.aar")
@@ -127,7 +127,7 @@ githubProperties.load(new FileInputStream(rootProject.file("github.properties"))
             name = "GitHubPackages"
             /*  Configure path to the library hosted on GitHub Package Registry
              *  Replace UserID with package owner userID and REPOSITORY with the repository name
-             *  e.g. "https://maven.pkg.github.com/enefce/AndroidLibraryForGitHubPackagesDemo"
+             *  e.g. "https://maven.pkg.github.com/murali/GitHubAndroidLibrary"
              */
             url = uri("https://maven.pkg.github.com/UserID/REPOSITORY")
 
