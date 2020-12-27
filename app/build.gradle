@@ -53,7 +53,7 @@ dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
 
     //Use SampleAndroidLib library
-    implementation 'com.murali.libraries:androidLib:1.0.1'
+    implementation 'com.murali.libraries:sampleAndroidLib:1.0.1'
 
     implementation"org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
     implementation 'androidx.appcompat:appcompat:1.1.0'
