@@ -3,6 +3,7 @@ package com.murali.samples.androidlib
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import kotlinx.android.synthetic.main.activity_main.*
+import com.murali.libraries.androidlib.SampleAndroidLibMain
 
 class MainActivity : AppCompatActivity() {
 
