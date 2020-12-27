@@ -32,7 +32,7 @@ android {
             name = "GitHubPackages"
             /*  Configure path to the library hosted on GitHub Packages Registry
              *  Replace UserID with package owner userID and REPOSITORY with the repository name
-             *  e.g. "https://maven.pkg.github.com/enefce/AndroidLibraryForGitHubPackagesDemo"
+             *  e.g. "https://maven.pkg.github.com/murali/GitHubAndroidLibrary"
              */
             //url = uri("https://maven.pkg.github.com/UserID/REPOSITORY")
             url = uri("https://maven.pkg.github.com/murali/GitHubAndroidLibrary")
